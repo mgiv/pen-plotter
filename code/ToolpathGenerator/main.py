@@ -5,7 +5,6 @@ from matplotlib.collections import LineCollection
 
 PIXEL_WIDTH = 10
 
-# Some random bresenham like algorithm for equally spacing lines inside the pixels
 def line_spacing(m):
     n = PIXEL_WIDTH # n = number of elements in array
     # m = number of lines in the array
@@ -26,6 +25,7 @@ def line_spacing(m):
             arr[index] = 1
         return arr
 
+# Convert to greyscale
 img = Image.open('test-image.jpg').convert("L")
 pixels = numpy.array(img)
 
@@ -107,7 +107,7 @@ ax.set_aspect("equal")  # to make the arcs look circular
 # create a LineCollection with the half-circles
 # its properties can be set per line by passing a sequence (here used for *colors*)
 # or they can be set for all lines by passing a scalar (here used for *linewidths*)
-line_collection = LineCollection(lines,  linewidths=0.3)
+line_collection = LineCollection(lines, linewidths=0.3, colors="black")
 ax.add_collection(line_collection)
 
 plt.show()
