@@ -1,5 +1,10 @@
 # Pen plotter
 ## A simple pen plotter using an esp32, stepper motors, a servo and timing belts
+### Demo videos
+- [Demo 1 - Hilbert curves](https://www.youtube.com/watch?v=iywQXDerfF4)  
+- [Demo 2 - Cat](https://www.youtube.com/shorts/F5tRbeLazfQ)  
+- [Demo 3 - Triangles](https://www.youtube.com/shorts/Yr_N4DkdwpU)  
+- [Demo 4 - Another Cat](https://www.youtube.com/shorts/lvt_kN0ZHD0)  
 
 ### Design
 The plotter uses a cartesian gantry system. Originally I was going to use a bed slinger system, like the Bambu Lab A1 Mini, however I decided to redesign it to corexy. After I realised how hard corexy would be to implement, I modified it to use the gantry.  
