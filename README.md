@@ -3,6 +3,7 @@
 
 ### Design
 The plotter uses a cartesian gantry system. Originally I was going to use a bed slinger system, like the Bambu Lab A1 Mini, however I decided to redesign it to corexy. After I realised how hard corexy would be to implement, I modified it to use the gantry.  
+<img width="914" height="576" alt="{F74FA99E-C383-4A17-BCB6-C585A155FD70}" src="https://github.com/user-attachments/assets/8553e9d4-c45f-4ca0-9b8e-1baf8fac443a" />
 
 There's 3 stepper motors, driven by 2 A4988 drivers. 2 of the motors are wired in series on the drivers, which makes sense since they're both on the y axis.
 
