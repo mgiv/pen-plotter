@@ -36,6 +36,36 @@ There's 3 stepper motors, driven by 2 A4988 drivers. 2 of the motors are wired i
 - The steppers are generic nema 17 motors, using 1/16 step
 - The servo is a cheap SG90
 
+### Print settings
+- .28mm layer height, ~20-30% gyroid infill
+- Auto supports
+- Almost anything would work to be honest as long as it prints
+
+### BOM
+- 8mmx300mm steel linear rod (4x)
+- M3 Nuts/Bolts
+- NEMA 17 Stepper motors (3x)
+- GT2 Timing belts (~3m)
+- GT2 Spring belt tensioners (4-8x)
+- GT2 Idlers (3x)
+- GT2 Drive Pulleys (3x)
+- Any random button/microswitch (3x)
+- _Some_ M5 bolts (although 3d printed replacements would do)
+- Wood screws/hot glue (anything to attach to baseboard)
+
+### Build advice
+If you want to print this yourself, I wouldn't recommend it. While it is in a working state, there are a lot of issues with the build that either make it a pain to build or just not work at all. If you do insist on building it yourself, find some random piece of wood or plastic to use as the baseboard. In a future version I'll improve the mounting holes and also make a semi-ridgid frame to help align it.
+
+#### Instructions
+1. Attach motors to parts using M3 screws.
+2. Put the pen lift arm on the carriage
+3. Assemble all the parts as shown without the timing belts. Take care not to bend the steel rods
+4. Add the timing belts. Try to make them as tight as possible
+5. If needed, add belt tensioning springs.
+6. Wire the 2 Y axis motors in series
+7. Either create or buy some dual stepper driver board (note that the 3 are treated as 2 motors because 2 of them are in series)
+8. Press fit the servo into place, and (depending on print precision) add screws to hold in place if needed
+
 
 ### Credits
 - Sierpinski triangle algorithm modified from https://runestone.academy/ns/books/published/pythonds/Recursion/pythondsSierpinskiTriangle.html
