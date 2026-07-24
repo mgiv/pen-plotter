@@ -35,8 +35,8 @@ def sierpinski(points, degree, commands):
                         getMid(points[0], points[2])],
                    degree - 1, commands)
 
-def triangle(depth):
+def triangle(depth, width):
     commands = ["PEN DOWN"]
-    points = [[0, 0],[7400, 14800],[14800, 0]]
+    points = [[0, 0],[width / 2, width],[width, 0]]
     sierpinski(points,depth, commands)
     return commands

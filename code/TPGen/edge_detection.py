@@ -33,7 +33,8 @@ def pure_edge(img):
         perimeter = cv2.arcLength(c, True)
         if perimeter < 20:
             continue
-        epsilon = 0.02 * perimeter
+
+        epsilon = 1.2
         approx = cv2.approxPolyDP(c, epsilon, True)
 
         if len(approx) <= 2:
