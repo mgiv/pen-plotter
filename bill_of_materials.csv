@@ -1,0 +1,26 @@
+Item Number,Part Name,Additional information,Quantity,Source,Unit cost (£),Total cost (£)
+1,Stainess steel linear rods,8mmx300mm,4,Purchased,£2.50,£10
+2,NEMA 17 Stepper motor,17HS4401,3,Purchased,£7,£21
+3,Pen,Any,1,Purchased,£1,£1
+4,GT2 timing belt 6mm,~2.5m,1,Purchased,£5,£5
+5,GT2 timing belt motor pulleys,,3,Purchased,£1,£3
+6,GT2 timing belt idlers,,3,Purchased,£1,£3
+7,GT2 timing belt clamps,Aluminium clamps to hold belt,3,Purchased,£1,£3
+8,GT2 belt tensioners,,0-6,Purchased,£0.50,£3
+9,SG90 Servo motor,With horn,1,Purchased,£2,£2
+10,Microswitch,Tactile switch or any similar thing works fine,2,Purchased,£0.10,£0.20
+11,M3 Screws / Nuts,,,Purchased,,£5
+12,M5 Screws / Nuts,"I used 3d printed versions, they're only for idlers",3,Purchased / 3D printed,,£0-£5
+13,A4988 Stepper drivers,,2,Purchased,£1,£2
+14,Motor end 1,,1,3D printed,,
+15,Motor end 2,Mirrored version of motor end 1,1,3D printed,,
+16,Idler end 1,,1,3D printed,,
+17,Idler end 2,Mirrored version of idler end 2,1,3D printed,,
+18,XY motor connector,,1,3D printed,,
+19,XY idler connector,,1,3D printed,,
+20,Carriage,,1,3D printed,,
+21,Pen lift arm,,1,3D printed,,
+22,ESP32 board,,1,Purchased,£3,£3
+23,Prototype perfboard,"Optional, can be used entirely on breadboard",1,Purchased,£1,£1
+24,Breadboard,,1,Purchased,£5,£5
+25,Wires,"Breadboard wires, thicker wires for power, stepper wires (should be included)",N/A,Purchased / Salvaged,,£0-£5
